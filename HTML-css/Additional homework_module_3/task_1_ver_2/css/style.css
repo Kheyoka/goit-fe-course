@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: 'Playfair Display', serif;
+
+}
+/* .div {
+    font-size: 84px;
+    color: white;
+} */
+/* .h1 {
+    text-align: center;
+    color: white;
+} */
+.menu {
+    text-align: center;
+    color: white;
+    font-size: 84px;
+    height: 100vh;
+    /* было 30 поменяла на 100vh */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.starters {
+    background-image: url(https://cantonata.net/wp-content/uploads/revslider/pizza/home_pizza_slider_2.png);
+    background-size: contain; 
+}
+.chesses {
+    background-image: url(https://cdn0.iconfinder.com/data/icons/cute-food/376/CuteFood_-_Artboard_Icon_Only-02-512.png);
+}
+.soup {
+    background-image: url(https://www.freeiconspng.com/uploads/tomato-soup-png-20.png);
+}
+.meat {
+    background-image: url(https://www.tabletable.co.uk/content/dam/tabletable/2018/Main.png);
+
+}
+.pasta {
+    background-image: url(https://leonardobansko.com/wp-content/uploads/2017/09/home-fork.png);
+}
+.drinks {
+    background-image: url(http://pluspng.com/img-png/drinks-png-hd-food-cocktails-and-more-1000.png);
+}
+
+.section {
+    margin: 50px;
+    padding: 30px; 
+ } 
+.black {
+    background-color: black;
+}
+.white {
+    background-color: white;
+}
+ul li {
+    list-style: none;
+    font-size: 44px;
+    /* line-height: 4; */
+    color: black;
+} 
+
+li:hover {
+    background-color: black;
+    color: white;
+}
+div > ul {
+    text-align: center;
+}

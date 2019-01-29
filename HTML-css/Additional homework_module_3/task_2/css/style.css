@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+.wrapper {
+    margin: auto;
+    width: 470px;
+}
+div span {
+    text-transform: uppercase;
+    line-height: 4;
+}
+h1 {
+    line-height: 1;
+}

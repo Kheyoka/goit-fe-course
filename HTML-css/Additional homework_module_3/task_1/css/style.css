@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: 'Playfair Display', serif;
+
+}
+/* .div {
+    font-size: 84px;
+    color: white;
+} */
+/* .h1 {
+    text-align: center;
+    color: white;
+} */
+.menu {
+    text-align: center;
+    color: white;
+    font-size: 84px;
+}
+.section {
+    margin: 50px;
+    padding: 30px;
+}
+.black {
+    background-color: black;
+}
+.white {
+    background-color: white;
+}
+ul li {
+    list-style: none;
+    font-size: 44px;
+    line-height: 4;
+    color: black;
+} 
+li:hover {
+    background-color: black;
+    color: white;
+}
+div > ul {
+    text-align: center;
+}

@@ -7,7 +7,8 @@ html {
 .wrapper {
     padding: 0;
     margin: 0 auto;
-    width: 1600px;
+    width: 100%;
+    /* width: 1600px; */
 }
 .clearfix::after {
     display: table;
@@ -16,7 +17,7 @@ html {
 }
 .navigation {
     float: right;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-size: 0;
     /* width: 100%; */
@@ -24,8 +25,10 @@ html {
     margin-bottom: 38px;
 }
 .logo {
+    margin: 0;
+    padding: 0;
     margin-top: 42px;
-    margin-left: 245px;
+    /* margin-left: 245px; */
     /* float: left; */
 }
 .menu {
@@ -37,6 +40,7 @@ html {
     color: #0f0101;
     font-family: 'Open Sans', sans-serif;
     margin-right: 32px;
+    /* margin-top: 40px; */
     font-weight: bold;
 }
 /* .first-menu {
@@ -46,15 +50,16 @@ a.menu:hover {
     color: #1abc9c;
 }
 .menu:last-child {
-    margin-right: 245px;
+    /* margin-right: 245px; */
+    margin-right: 0;
 }
 nav {
     font-size: 0;
 }
 .slider {
     position: relative;
-    margin: auto;
-    /* width: 1600px; */
+    /* margin: auto;
+    width: 1600px; */
 }
 .slides {
     margin: 0;
@@ -66,6 +71,7 @@ nav {
     height: 600px;
     object-fit: cover;
     width: 100%;
+    /* width: 1600px; */
 }
 .slider-button {
     border: none;
@@ -195,10 +201,11 @@ ul.main {
     margin-right: 30px;
     margin-bottom: 30px;
     font-size: 0;
+    width: 255px;
 }
-.first-product {
+/* .first-product {
     margin-left: 245px;
-}
+} */
 .img .item-photo  {
     margin: 0;
     padding: 0;

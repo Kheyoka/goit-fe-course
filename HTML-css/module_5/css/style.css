@@ -5,9 +5,11 @@ html {
     box-sizing: inherit;
 }
 .wrapper {
-    padding: 0;
     margin: 0 auto;
-    width: 100%;
+    padding: 0;
+    width: 1110px;
+    
+    /* width: 100%; */
     /* width: 1600px; */
 }
 .clearfix::after {
@@ -25,7 +27,7 @@ html {
     margin-bottom: 38px;
 }
 .logo {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     margin-top: 42px;
     /* margin-left: 245px; */
@@ -58,8 +60,8 @@ nav {
 }
 .slider {
     position: relative;
-    /* margin: auto;
-    width: 1600px; */
+    margin: auto;
+    /* width: 1600px; */
 }
 .slides {
     margin: 0;
@@ -70,10 +72,11 @@ nav {
 .slides img {
     height: 600px;
     object-fit: cover;
-    width: 100%;
+    /* width: 100%; */
     /* width: 1600px; */
 }
 .slider-button {
+    padding: 0;
     border: none;
     display: inline-block;
     background-color: rgb(78, 198, 171);
@@ -95,11 +98,12 @@ nav {
  }
 .button-left {
     left: 0;
-    margin-left: 245px;
+    /* margin-left: 245px; */
+    margin-left: 85px;
 }
 .button-right {
     right: 0;
-    margin-right: 245px;
+    margin-right: 0;
 }
 .new-collection {
     background: #e9f0fd;
@@ -133,9 +137,9 @@ h2 {
     margin-bottom: 100px;
 
 }
-ul.main {
+ul.main-ul {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 
 }
 .overlay {
@@ -192,14 +196,15 @@ ul.main {
     left: 35px;
     bottom: 75px;
 }
-  
+
 .product {
+    /* display: inline-block; */
     position: relative;
     margin: 0 auto;
     padding: 0;
     float: left;
     margin-right: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     font-size: 0;
     width: 255px;
 }
@@ -304,3 +309,4 @@ li.product:nth-child(4n) {
   .author {
       color: #46bfa9;
   }
+  

@@ -75,7 +75,6 @@ font-family: 'Roboto', sans-serif; */
 }
 .nav-underscore:hover::after {
     transform: scaleX(1);
-    /* transform: 0.4s; исчезает медленно  */
 }
 h2 {
     margin: 0 auto;
@@ -194,10 +193,11 @@ ul.services {
     font-size: 0;
 }
 .back {
+    position: absolute;
     background-color: #95e1d3;
     width: 381px;
     height: 470px;
-    z-index:;
+    z-index:-1;
 }
 
 .overlay {
@@ -258,22 +258,20 @@ ul.services {
 
 }
 
-/* .img-team-member {
-    transform: translate(0, 0);
-    /* transform: scaleX(0); */
-    /* transition: translate 0.2s ease-in-out;
-}
-.img-team-member:hover::after {
-    transform: translate(-10px, -10px);
-} */ 
-.overlay {
+/* .overlay {
     transform: translate(0, 0);
     transition: translate 0.2s ease-in-out;
 }
 .overlay:hover {
-    transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px); */
+
+.left-overlay {
+    transform: translate(0, 0);
+    transition: translate 0.2s ease-in-out;
 }
-/* переделать анимацию через @keyframes? */
+.left-overlay:hover {
+    transform: translate(-10px, -10px);   
+}
 .footer-border {
     padding: 0;
     margin: 0 auto;
@@ -286,8 +284,6 @@ ul.services {
     justify-content: space-between;
     align-items: center;
     height: 62px;
-    /* border-style: ;
-    border-width: 10px 10px 10px 10px #cccccc; */
 }
 .info-footer {
     font-family: 'Montserrat', sans-serif;
@@ -308,9 +304,7 @@ ul.services {
     font-weight: lighter;
     font-size: 15px;
     color: #cccccc;
-    /* border-style: none; */
-    /* border-style: 1px 0px 0px 0px #cccccc; */
-
+    border-right: none;
 }
 button {
     padding: 0;

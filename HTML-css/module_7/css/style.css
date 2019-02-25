@@ -182,18 +182,17 @@ ul.services {
     width: 240px;
 }
 .form-input:invalid {
-    outline: red;
+    outline: 1px solid rgb(231, 32, 32);
     
   }
 .form-input:valid {
-    outline: green;
-    outline-color: green;
+    outline: 1px solid rgb(64, 117, 64);
   }
 .form-textarea:invalid {
-    outline: red;
+    outline: 1px solid red;
   }
 .form-textarea:valid {
-    outline: green;
+    outline: 1px solid green;
   }
   /* .form-contact:valid {
       outline:green;

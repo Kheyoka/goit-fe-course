@@ -120,7 +120,7 @@ ul.services {
 }
 
 .contact-us {
-    background-image: url(/module_7/img/background_1.png);
+    background-image: url(../img/background_1.png);
     height: 676px;
 }
 .contacts {
@@ -181,3 +181,23 @@ ul.services {
     height: 65px;
     width: 240px;
 }
+.form-input:invalid {
+    outline: red;
+    
+  }
+.form-input:valid {
+    outline: green;
+    outline-color: green;
+  }
+.form-textarea:invalid {
+    outline: red;
+  }
+.form-textarea:valid {
+    outline: green;
+  }
+  /* .form-contact:valid {
+      outline:green;
+  }
+  .form-contact:invalid {
+      outline: red;
+  } */

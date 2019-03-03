@@ -1,0 +1,56 @@
+@media (min-width: 320px) {
+    .top-links {
+    top: 32px;
+    text-align: center;
+    }
+}
+
+@media (min-width: 600px) {
+    .top-links {
+        text-align: right;
+        top: 34px;
+        padding-right: 50px;
+    }
+    .titles {
+        top: 34px;
+    }
+    .german {
+        text-align: left;
+        padding-left: 46px; 
+        margin-bottom: 90px;  
+    }
+    .main-title {
+        font-size: 52px;
+        width: 500px;
+        margin-bottom: 15px;
+        
+    }
+    .second-title {
+        font-size: 20px;
+        width: 400px;
+        margin-bottom: 26px;
+    }
+    .find-link {
+        width: 224px; 
+    }
+    .third-title {
+        padding-bottom: 34px;
+    }
+
+    .best-partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 492px;
+        margin-bottom: 50px;
+    }
+    .link-see {
+        padding: 10px 25px;
+    }
+    .third-partner {
+        order: 1;
+    }
+    .forth-partner {
+        order: 2;
+    }
+}

@@ -1,0 +1,224 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* FONTS */
+    /* font-family: 'RobotoSlab';
+    font-weight: 400;
+    font-style: normal; 
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal; 
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal; 
+    font-family: 'RobotoSlab';
+    font-weight: 300;
+    font-style: normal; 
+    */
+/* FONTS */
+/* header {
+    height: 540px;
+} */
+/* .cover {
+    background-image: url(../img/cover-photo_mbl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}  */
+.header {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    /* min-width: 320px;  */
+    /* width: 320px;
+    padding: 0 15px;   */
+}
+.picture img{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.links {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal; 
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.top-links {
+    position: absolute;
+    /* top: 32px; */
+    width: 100%;
+    /* text-align: center; */
+}
+
+.sign-up {
+    margin-left: 20px;
+}
+.log-in:hover {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+.sign-up:hover {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+.titles {
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.german {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal; 
+    color: #fff;
+    text-transform: uppercase;
+    line-height: auto;
+    margin-bottom: 36px;
+}
+.main-title {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal; 
+    color: #fff;
+    width: 280px; 
+    margin-bottom: 20px;
+}
+.second-title {
+    margin: 0 auto;
+    font-family: 'RobotoSlab';
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    font-size: 18px;
+    width: 280px; 
+    margin-bottom: 18px;
+}
+.find-link {
+    margin: 0 auto;
+    background-color: #ff4e50;
+    width: 280px;
+    height: 40px;
+    border-radius: 25px;
+}
+.link-3 {
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+}
+.third-title {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    /* width: 268px; */
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal; 
+}
+.best-partners {
+    margin: 0 auto;
+    padding: 0;
+}
+.partners {
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+    text-align: center; 
+}
+.name-partners {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal; 
+    color: #333333;
+    margin-bottom: 12px;
+
+}
+.about-partners {
+    margin: 0 auto;
+    text-align: center; 
+    width: 222px;
+    font-family: 'RobotoSlab';
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 14px;
+    color: #666666;
+}
+.partners:not(:last-child) {
+    margin-bottom: 20px;
+}
+.partners:last-child {
+    margin-bottom: 47px;
+}
+.img-partners {
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 25px;
+    width: 120px; 
+}
+.logo {
+    position: absolute;
+    right: 0;
+    bottom: -1%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 8px;
+}
+.mini-tv {
+    background-color: #ff4e50;  
+}
+.mini-science {
+    background-color: #ffa507;
+}
+.mini-cup {
+    background-color: #1cd7ad;
+}
+.mini-teleg {
+    background-color: #4e73db;
+}
+
+
+.link-see-more {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.link-see {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal; 
+    text-decoration: none;
+    font-size: 14px;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 25px;
+    padding: 16px 70px;
+}

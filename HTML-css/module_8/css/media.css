@@ -54,3 +54,9 @@
         order: 2;
     }
 }
+@media (min-width: 1170px) {
+    .best-partners {
+        max-width: 940px;
+    }
+    
+}

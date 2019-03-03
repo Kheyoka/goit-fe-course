@@ -55,8 +55,16 @@
     }
 }
 @media (min-width: 1170px) {
+    .top-links {
+        padding-right: 200px;
+    }
+    .german {
+        padding-left: 200px;
+    }
+
     .best-partners {
         max-width: 940px;
     }
+
     
 }

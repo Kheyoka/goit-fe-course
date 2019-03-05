@@ -1,27 +1,37 @@
-@media (min-width: 320px) {
-    .top-links {
-    top: 32px;
-    text-align: center;
-    }
-}
 
 @media (min-width: 600px) {
+    .intro {
+        min-height: 700px;
+        background: url(../img/cover-photo_tbl.png) center center; 
+        background-size: cover;
+    }
+     .header {
+         margin: 0 auto;
+    } 
+    .container {
+        min-width: 540px;
+        max-width: 939px;
+    }
+    .header-content {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 34px;
+    }
+    .logo-grm {
+        margin: 0;
+        padding: 0; 
+    }
     .top-links {
-        text-align: right;
-        top: 34px;
-        padding-right: 50px;
+        margin: 0;
+        padding: 0;
+        margin-top: 0; 
     }
-    .titles {
-        top: 34px;
-    }
-    .german {
-        text-align: left;
-        padding-left: 46px; 
-        margin-bottom: 90px;  
-    }
+    
     .main-title {
         font-size: 52px;
-        width: 500px;
+        width: 600px;
         margin-bottom: 15px;
         
     }
@@ -55,16 +65,20 @@
     }
 }
 @media (min-width: 1170px) {
-    .top-links {
-        padding-right: 200px;
+    .intro {
+        min-height: 700px;
+        background: url(../img/cover-photo_dsk.png) center center; 
+        background-size: cover;
     }
-    .german {
-        padding-left: 200px;
+    .container {
+        min-width: 940px;
     }
-
+    .header-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    }
     .best-partners {
         max-width: 940px;
-    }
-
-    
+    } 
 }

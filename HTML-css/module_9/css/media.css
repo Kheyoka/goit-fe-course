@@ -1,0 +1,82 @@
+
+@media (min-width: 600px) {
+    .intro {
+        min-height: 700px;
+        background: url(../img/cover-photo_tbl.png) center center; 
+        background-size: cover;
+    }
+     .header {
+         margin: 0 auto;
+    } 
+    .container {
+        min-width: 540px;
+        max-width: 939px;
+    }
+    .header-content {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 34px;
+    }
+    .logo-grm {
+        margin: 0;
+        padding: 0; 
+    }
+    .top-links {
+        margin: 0;
+        padding: 0;
+        margin-top: 0; 
+    }
+    
+    .main-title {
+        font-size: 52px;
+        margin-bottom: 15px;
+        
+    }
+    .second-title {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+    .find-link {
+        width: 224px; 
+    }
+    .third-title {
+        padding-bottom: 34px;
+    }
+
+    .best-partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 492px;
+        margin-bottom: 50px;
+    }
+    .link-see {
+        padding: 10px 25px;
+    }
+    .third-partner {
+        order: 1;
+    }
+    .forth-partner {
+        order: 2;
+    }
+}
+@media (min-width: 1170px) {
+    .intro {
+        min-height: 700px;
+        background: url(../img/cover-photo_dsk.png) center center; 
+        background-size: cover;
+    }
+    .container {
+        min-width: 940px;
+    }
+    .header-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    .best-partners {
+        max-width: 940px;
+    } 
+}

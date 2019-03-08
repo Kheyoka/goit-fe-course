@@ -49,7 +49,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        max-width: 492px;
+        /* max-width: 492px; */
         margin-bottom: 50px;
     }
     .link-see {
@@ -76,7 +76,7 @@
     display: flex;
     justify-content: space-between;
     }
-    .best-partners {
+    /* .best-partners {
         max-width: 940px;
     } 
-}
+} */

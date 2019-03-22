@@ -13,161 +13,196 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="cover-eagle">
+    <header class="cover-eagle header__text--color">
         <div class="wrapper">
         <nav class="navigation">
-            <a href="" class="logo-text">MoGo</a>
-            <ul class="site-nav">
-                <li><a href="" class="nav-menu nav-underscore">About</a></li>
-                <li><a href="" class="nav-menu nav-underscore">Service</a></li>
-                <li><a href="" class="nav-menu nav-underscore">Work</a></li>
-                <li><a href="" class="nav-menu nav-underscore">Blog</a></li>
-                <li><a href="" class="nav-menu nav-underscore">Contact</a></li>
-                <li><a href=""><img src="./img/SHOPPING_CART.png" alt=""></a></li>
-                <li><a href=""><img src="./img/MAGNIFYING_GLASS.png" alt=""></a></li>
+            <a href="" class="link header__logo--text">MoGo</a>
+            <ul class="header__site-nav list">
+                <li><a href="" class="header__nav-menu header__nav-menu--color header__nav-underscore link">About</a></li>
+                <li><a href="" class="header__nav-menu header__nav-menu--color header__nav-underscore link">Service</a></li>
+                <li><a href="" class="header__nav-menu header__nav-menu--color header__nav-underscore link">Work</a></li>
+                <li><a href="" class="header__nav-menu header__nav-menu--color header__nav-underscore link">Contact</a></li>
+                <li><a href="" class="header__nav-menu header__nav-menu--color header__nav-underscore link">Blog</a></li>
+                <li><a href="" class="header__svg"><svg><use href="./img/sprite-menu.svg#shopping-cart"></use></svg></a></li>
+                <li><a href="" class="header__svg"><svg><use href="./img/sprite-menu.svg#magnifying_glass"></use></svg></a></li>
             </ul>
-        </nav>
-        <div class="header-titles">
-            <p class="kaushan-title">Creative Template</p>
-            <h1 class="montserrat-title">Welcome to MoGo</h1>
+      </nav>
+        <div class="header__titles titles">
+            <p class="header__first-title kaushan-font titles">Creative Template</p>
+            <h1 class="header__second-title montserrat-font titles">Welcome to MoGo</h1>
         </div>
-        <div class="button">
-            <button>Learn more</button>
+        <div class="header__button">
+            <button class="button header__button--background header__button--border">Learn more</button>
         </div>
      </div>
     </header>
     <main class="wrapper">
-        <section class="our-services">
-            <h2 class="kaushan-font">We work with</h2>
-            <h2 class="montserrat-font underscore">Amazing services</h2>
-            <ul class="services">
-                <li class="item-services">
-                    <img class="icon-logo" src="./img/icon-alarm.png" alt="">
-                     <div class="about-services">
-                     <h3 class="name-services">Photograhy</h3>
-                    <p class="text-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime pariatur?</p>
+        <section class="section-services">
+            <h2 class="kaushan-font section-services__first-title section-titles titles">We work with</h2>
+            <h2 class="montserrat-font section-services__second-title underscore section-titles titles">Amazing services</h2>
+            <ul class="section-services__services">
+                <li class="section-services__item-services">
+                        <svg><use href="./img/sprite-icon.svg#icon-alarm"></use></svg>
+                    <!-- <img class="" src="./img/icon-alarm.png" alt=""> -->
+                     <div class="section-services__about-services">
+                     <h3 class="section-services__name-services">Photograhy</h3>
+                    <p class="section-services__text-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime pariatur?</p>
                     </div>
                 </li>
-                <li class="item-services">
-                    <img class="icon-logo" src="./img/icon-line-graph.png" alt="">
-                     <div class="about-services">
-                     <h3 class="name-services">Web Design</h3>
-                     <p class="text-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime pariatur?</p>
+                <li class="section-services__item-services">
+                        <svg><use href="./img/sprite-icon.svg#icon-line-graph"></use></svg>
+                    <!-- <img class="" src="./img/icon-line-graph.png" alt=""> -->
+                     <div class="section-services__about-services">
+                     <h3 class="section-services__name-services">Web Design</h3>
+                     <p class="section-services__text-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime pariatur?</p>
                     </div>
                 </li>
-                <li class="item-services">
-                    <img class="icon-logo" src="./img/icon-computer-ok.png" alt="">
-                    <div class="about-services">
-                        <h3 class="name-services">Creativity</h3>
-                        <p class="text-services">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ducimus nam aperiam?</p>
+                <li class="section-services__item-services">
+                        <svg><use href="./img/sprite-icon.svg#icon-computer"></use></svg>   
+                    <!-- <img class="" src="./img/icon-computer-ok.png" alt=""> -->
+                    <div class="section-services__about-services">
+                        <h3 class="section-services__name-services">Creativity</h3>
+                        <p class="section-services__text-services">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ducimus nam aperiam?</p>
                     </div>
                 </li>
-                <li class="item-services">
-                    <img class="icon-logo" src="./img/icon-book.png" alt="">
-                     <div class="about-services">
-                        <h3 class="name-services">SEO</h3>
-                        <p class="text-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, esse.</p>
+                <li class="section-services__item-services">
+                        <svg><use href="./img/sprite-icon.svg#icon-book"></use></svg>
+                    <!-- <img class="" src="./img/icon-book.png" alt=""> -->
+                     <div class="section-services__about-services">
+                        <h3 class="section-services__name-services">SEO</h3>
+                        <p class="section-services__text-services">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, esse.</p>
                     </div>
                 </li>
-                <li class="item-services">
-                    <img class="icon-logo" src="./img/icon-home.png" alt="">
-                    <div class="about-services">
-                        <h3 class="name-services">CSS/HTML</h3>
-                        <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, velit!</p>
+                <li class="section-services__item-services">
+                        <svg><use href="./img/sprite-icon.svg#icon-home"></use></svg>
+                    <!-- <img class="" src="./img/icon-home.png" alt=""> -->
+                    <div class="section-services__about-services">
+                        <h3 class="section-services__name-services">CSS/HTML</h3>
+                        <p class="section-services__text-services">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, velit!</p>
                     </div>
                 </li>
-                <li class="item-services">
-                    <img class="icon-logo" src="./img/icon-image.png" alt="">
-                    <div class="about-services">
-                        <h3 class="name-services">Digital</h3>
-                        <p class="text-services">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit!</p>
+                <li class="section-services__item-services">
+                        <svg><use href="./img/sprite-icon.svg#icon-image"></use></svg>
+                    <!-- <img class="" src="./img/icon-image.png" alt=""> -->
+                    <div class="section-services__about-services">
+                        <h3 class="section-services__name-services">Digital</h3>
+                        <p class="section-services__text-services">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit!</p>
                     </div>
                 </li>
             </ul>
         </section>
-        <section class="our-team">
-            <h2 class="kaushan-font">Who we are</h2>
-            <h2 class="montserrat-font underscore">Meet our team</h2>
-            <p class="about-our-team">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente magnam assumenda sequi dolores ipsa earum ut quo, tempora ex enim. Commodi tenetur aliquam beatae, ab quos quibusdam temporibus repudiandae accusantium a, quia autem rem culpa tempora perferendis!</p>
-            <ul class="team-list">
-                <li class="team-member">
-                    <div class="left-overlay">
-                     <div class="overlay"></div>
-                     <div class="overlay-icons">
-                            <a class="icon" href="#">
-                                <img class="icon-facebook" src="./img/facebook.png" alt="Like">
+        <section class="section-team">
+            <h2 class="kaushan-font section-team__titles--first section-titles titles">Who we are</h2>
+            <h2 class="montserrat-font underscore section-team__titles--second section-titles titles">Meet our team</h2>
+            <p class="section-team__about-our-team">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente magnam assumenda sequi dolores ipsa earum ut quo, tempora ex enim. Commodi tenetur aliquam beatae, ab quos quibusdam temporibus repudiandae accusantium a, quia autem rem culpa tempora perferendis!</p>
+            <ul class="section-team__team-list">
+                <li class="section-team__team-member">
+                    <div class="section-team__team-member--left-overlay">
+                     <div class="section-team__overlay"></div>
+                     <div class="section-team__overlay-icons">
+                            <a class="section-team__icon" href="#">
+                                <svg>
+                                   <use href="./img/social-icons/sprite.svg#facebook"></use> 
+                                </svg>
                             </a>
-                            <a class="icon twitter" href="">
-                                <img src="./img/twitter.png" alt="">
+                            <a class="section-team__icon" href="">
+                                <svg>
+                                   <use href="./img/social-icons/sprite.svg#twitter"></use> 
+                                </svg>
                             </a>
-                            <a class="icon pinterest" href="">
-                                <img src="./img/pinterest.png" alt="">
+                            <a class="section-team__icon" href="">
+                                <svg>
+                                   <use href="./img/social-icons/sprite.svg#pinterest"></use> 
+                                </svg>
                             </a>
-                            <a class="icon instagram" href="">
-                                <img src="./img/instagram.png" alt="">
+                            <a class="section-team__icon" href="">
+                                <svg>
+                                   <use href="./img/social-icons/sprite.svg#instagram"></use> 
+                                </svg>
                             </a>
-                    
                      </div>
                      <div class="img-member">
-                    <img class="img-team-member" src="./img/image_01.png" alt="">
+                    <img class="img-team-member" srcset="./img/image_01-min.png 381w, ./img/image_01@2x.png 760w" 
+                      sizes="381px" src="./img/image_01-min.png" alt="" height="470">
                     </div>
                     </div>
-                    <div class="back"></div>
-                    <p class="name">Matthew Dix</p>
-                    <p class="occupation">Graphic Design</p>
+                    <div class="section-team__background"></div>
+                    <p class="section-team__member-name">Matthew Dix</p>
+                    <p class="section-team__member-occupation">Graphic Design</p>
                            
                 </li>
-                <li class="team-member">
-                    <div class="left-overlay">
-                        <div class="overlay"></div>
-                        <div class="overlay-icons">
-                                <a class="icon" href="#">
-                                    <img class="icon-facebook" src="./img/facebook.png" alt="Like">
-                                </a>
-                                <a class="icon icon-twitter" href="">
-                                    <img src="./img/twitter.png" alt="">
-                                </a>
-                                <a class="icon icon-pinterest" href="">
-                                    <img src="./img/pinterest.png" alt="">
-                                </a>
-                                <a class="icon icon-instagram" href="">
-                                    <img src="./img/instagram.png" alt="">
-                                </a>
+                <li class="section-team__team-member">
+                    <div class="section-team__team-member--left-overlay">
+                        <div class="section-team__overlay"></div>
+                        <div class="section-team__overlay-icons">
+                                <a class="section-team__icon" href="#">
+                                        <svg>
+                                           <use href="./img/social-icons/sprite.svg#facebook"></use> 
+                                        </svg>  
+                                    </a>
+                                    <a class="section-team__icon twitter" href="">
+                                        <svg>
+                                           <use href="./img/social-icons/sprite.svg#twitter"></use> 
+                                        </svg>
+                                        
+                                    </a>
+                                    <a class="section-team__icon pinterest" href="">
+                                        <svg>
+                                           <use href="./img/social-icons/sprite.svg#pinterest"></use> 
+                                        </svg>
+                                    </a>
+                                    <a class="section-team__icon instagram" href="">
+                                        <svg>
+                                           <use href="./img/social-icons/sprite.svg#instagram"></use> 
+                                        </svg>
+                                    </a>
                             </div>
                         <div class="img-member">
-                         <img class="img-team-member" src="./img/image_02.png" alt="">
+                         <img class="img-team-member" srcset="./img/image_02-min.png 381w, ./img/image_02@2x.png 760w" 
+                         sizes="381px"
+                         src="./img/image_02-min.png" alt="" height="470">
                         </div>
                     </div>
-                        <div class="back"></div>
+                        <div class="section-team__background"></div>
                 
-                        <p class="name">Christopher Campbell</p>
-                        <p class="occupation">Branding/UX design</p>
+                        <p class="section-team__member-name">Christopher Campbell</p>
+                        <p class="section-team__member-occupation">Branding/UX design</p>
                                
                 </li>
-                <li class="team-member">
-                    <div class="left-overlay">
-                    <div class="overlay"></div>
-                        <div class="overlay-icons">
-                            <a class="icon" href="#">
-                                <img class="icon-facebook" src="./img/facebook.png" alt="Like">
-                            </a>
-                            <a class="icon twitter" href="">
-                                <img src="./img/twitter.png" alt="">
-                            </a>
-                            <a class="icon pinterest" href="">
-                                <img src="./img/pinterest.png" alt="">
-                            </a>
-                            <a class="icon instagram" href="">
-                                <img src="./img/instagram.png" alt="">
-                            </a>
+                <li class="section-team__team-member">
+                    <div class="section-team__team-member--left-overlay">
+                    <div class="section-team__overlay"></div>
+                        <div class="section-team__overlay-icons">
+                            <a class="section-team__icon" href="#">
+                                    <svg>
+                                       <use href="./img/social-icons/sprite.svg#facebook"></use> 
+                                    </svg>
+                                </a>
+                                <a class="section-team__icon twitter" href="">
+                                    <svg>
+                                       <use href="./img/social-icons/sprite.svg#twitter"></use> 
+                                    </svg>
+                                </a>
+                                <a class="section-team__icon pinterest" href="">
+                                    <svg>
+                                       <use href="./img/social-icons/sprite.svg#pinterest"></use> 
+                                    </svg>
+                                </a>
+                                <a class="section-team__icon instagram" href="">
+                                    <svg>
+                                       <use href="./img/social-icons/sprite.svg#instagram"></use> 
+                                    </svg>
+                                </a>
                        </div>
-                       <div class="img-member">
-                        <img class="img-team-member" src="./img/image_03.png" alt="">
+                       <div class="section-team__img-member">
+                        <img srcset="./img/image_03-min.png 381w, ./img/image_03@2x.png 760w" 
+                        sizes="381px"
+                        src="./img/image_03-min.png" alt="" height="470">
                        </div>
                     </div>
-                     <div class="back"></div>
-                    <p class="name">Michael Fertig </p>
-                    <p class="occupation">Developer</p>          
+                     <div class="section-team__background"></div>
+                    <p class="section-team__member-name">Michael Fertig </p>
+                    <p class="section-team__member-occupation">Developer</p>          
                 </li>
             </ul>
             
@@ -175,12 +210,11 @@
     </main>
     <footer class="wrapper">
     <p class="footer-border"></p>
-
-     <div class="info">
+     <div class="footer__info">
     
-        <span class="info-footer">© 2016 MoGo free PSD template by <span class="colortext">Laaqiq</span></span>
-        <p class="input-button"><input type="email" class="intext" value="Your Email...">
-        <button>Subscribe</button>
+        <span class="footer__info--text">© 2016 MoGo free PSD template by <span class="footer__info--colortext">Laaqiq</span></span>
+        <p class="footer__input-button"><input type="email" class="footer__input-button--intext" value="Your Email...">
+        <button class="button footer__button">Subscribe</button>
         </p>
      </div>
     </footer>

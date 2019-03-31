@@ -1,0 +1,40 @@
+.footer-border {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 1px;
+    background: #cccccc;
+}
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+.footer__info--text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+.footer__info--colortext {
+    color: #f38181;
+}
+.footer__input-button {
+    display:flex;
+}
+
+.footer__input-button--intext {
+    width: 230px;
+    height: 40px;
+    font-family: 'Roboto', Italic;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #cccccc;
+    border-right: none;
+}
+.footer__button {
+    background: #95e1d3;
+    border-style: none;
+    height: 40px;
+    width: 150px;
+}

@@ -1,0 +1,115 @@
+.section-team__titles--first {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.section-team__titles--second {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.section-team__about-our-team {
+    margin-top: 88px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}
+.section-team__team-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 106px;
+}
+.section-team__team-member {
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    flex-basis: 381px;
+    height: 540px;
+    font-size: 0;
+}
+.section-team__overlay {
+    position: absolute;
+    width: 381px;
+    height: 470px;
+    opacity: 0;
+    background: linear-gradient(to top, rgba(253, 211, 59, 0.9), rgba(243, 129, 129, 0.9));
+}
+.section-team__overlay-icons {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 207px;
+    left: 78px;
+    width: 224px;
+    height: 56px;
+    opacity: 0;
+}
+
+.section-team__icon {
+    width: 55px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fce38a;
+    text-decoration: none;
+}
+.section-team__icon svg {
+    width: 26px;
+    height: 26px;
+    fill: #f38181;
+}
+.section-team__icon:hover {
+    background-color: #95e1d3;
+}
+.section-team__icon svg:hover {
+    fill: #fff;
+    transition: fill 0.2s linear;
+}
+.section-team__team-member:hover .section-team__overlay-icons {
+    opacity: 1;
+}
+.section-team__team-member:hover .section-team__overlay {
+    opacity: 0.9;
+}
+.section-team__background {
+    position: absolute;
+    background-color: #95e1d3;
+    width: 381px;
+    height: 470px;
+    z-index:-1;
+}
+.section-team__member-name {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-team__member-occupation {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', Light-Italic;
+    color: #999999;
+    font-size: 15px;
+    text-align: center;
+}
+
+.section-team__team-member--left-overlay {
+    transform: translate(0, 0);
+    transition: translate 0.2s ease-in-out;
+}
+.section-team__team-member--left-overlay:hover {
+    transform: translate(-10px, -10px);   
+}

@@ -1,0 +1,77 @@
+.header__text--color { 
+    color: #fff;
+}
+.header__logo--text {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: auto;    
+}
+.header__site-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 622px;
+}
+.header__nav-menu {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header__nav-menu:hover {
+    color: #fce38a;
+}
+.header__nav-underscore {
+    position: relative;
+    margin: 0 10px;
+}
+.header__nav-menu--color {
+    color: #fff; 
+}
+.header__nav-underscore::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 3px;
+    background: #fce38a;
+    transform: scaleX(0);
+    transition: transform 0.2s; 
+}
+.header__nav-underscore:hover::after {
+    transform: scaleX(1);
+}
+.header__svg svg {
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+}
+.header__svg:hover svg {
+    fill: #fce38a;
+}
+.header__titles {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.header__first-title {
+    font-size: 72px;
+}
+.header__second-title {
+    font-size: 150px;
+    width: 800px;
+    line-height: 1;
+}
+.header__button {
+    margin: 0 auto;
+    text-align: center;
+}
+.header__button--background {
+    background: none;
+    width: 156px;
+    height: 36px;
+}
+.header__button--border {
+  border: 3px solid white;
+}
